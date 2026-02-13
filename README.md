@@ -12,6 +12,19 @@ This project is a functional bus timetable display and booking validation system
 * **API Layer:** Oracle REST Data Services (ORDS)
 * **Frontend:** PHP (timetable.php) using Bootstrap for styling
 
+## Setup & Installation
+
+### 1. Database Configuration
+* Import the provided SQL script into your Oracle APEX workspace.
+* Ensure the **RESTful Services** are enabled for the schema.
+
+### 2. API Integration
+* Configure the REST endpoints as specified in the documentation (e.g., `/busbook/buses/`).
+* Update the `$api_url` in `timetable.php` with your unique ORDS endpoint.
+
+### 3. Execution
+* Deploy the PHP file to a local server (WAMP/XAMPP) and access it via `localhost`.
+
 ## Application Preview
 
 ### Dynamic Bus Timetable (Fetched via REST API)
