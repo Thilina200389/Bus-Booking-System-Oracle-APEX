@@ -14,7 +14,7 @@
     
     <?php
     // YOUR EXACT API URL
-    $api_url = 'https://oracleapex.com/ords/uovt_de/busbook/buses';
+    $api_url = 'YOUR_ORACLE_APEX_API_ENDPOINT_HERE';
     
     $response = @file_get_contents($api_url);
     $data = json_decode($response, true);
@@ -69,3 +69,4 @@
     ?>
 </body>
 </html>
+
